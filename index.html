@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/lib/bootstrap.css" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- START LOADER -->
+  <div id="js-w-loading" class="w-loading">
+    <div class="w-loading-content">
+      <div class="w-spinner">&#10047;</div>
+      <div class="w-spinner" style="color: #c5dcff">&#10048;</div>
+      <div class="w-spinner" style="color: #d0f2c3">&#10047;</div>
+      <div class="w-spinner" style="color: #f7cecd">&#10048;</div>
+      <div class="w-spinner" style="color: #fff2ba">&#10047;</div>
+    </div>
+  </div>
+  <!-- END LOADER -->
+  <!-- BEGIN HEADER -->
+  <header class="w-header">
+    <div class="container-fluid position-relative p-0" style="z-index: 16">
+      <nav class="w-navbar navbar navbar-expand-lg navbar-light fixed-top p-lg-0">
+        <div class="container-lg position-relative">
+          <a href="index.html" class="w-logo ml-2 ml-lg-0 navbar-brand d-block d-lg-none">
+            <h2 class="m-0">Nguyen Kim Thu</h2>
+          </a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="d-none d-lg-block w-100">
+            <div class="d-flex justify-content-between align-items-center w-100">
+              <a href="/" class="w-logo navbar-brand d-none d-lg-block">
+                Nguyen Kim Thu
+              </a>
+              <ul class="navbar-nav ml-auto py-5 py-lg-0">
+                <li class="nav-item">
+                  <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item active">
+                  <a href="#work" class="nav-link">My Work</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#contact" class="nav-link">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <nav class="w-navbar-mobile">
+      <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon">&#x2715;</span>
+        </button>
+        <ul class="navbar-nav ml-auto my-5 py-5 my-lg-0 py-lg-0">
+          <li class="nav-item active">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#work" class="nav-link">My Work</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <!-- END HEADER -->
+  <!-- BEGIN MAIN CONTENT -->
+  <main class="w-main">
+    <div class="w-intro">
+      <div class="container-fluid py-lg-5">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-8">
+              <p class="wow fadeInDown"data-wow-duration=".6s">
+                <span style="padding-right: 3%">&#128205; Ho Chi Minh City</span>
+                <span> &#128336; </span><span class="w-time"></span>
+              </p>
+              <h1 class="w-heading-1 pt-3 pb-lg-3 wow fadeInDown"data-wow-duration=".6s" data-wow-delay=".8s">
+                Hi! I’m Nguyen Kim Thu
+                <span class="w-text-purple">&#10047;</span> <br />a UX Design
+                and <span class="w-text-orange">★彡</span> <br />
+                Wordpress developer
+                <span class="w-text-yellow-medium">&#10040; </span><span class="w-text-blue">〜</span>
+              </h1>
+              <h4 class="w-heading-4 wow fadeInUp"data-wow-duration=".6s" data-wow-delay=".8s">
+                Hi there! I’m a 31 year old. <br />I'm freelance designer and
+                Wordpress developer <br />from the Ho Chi Minh, Viet Nam.
+                <span class="w-text-orange">&#10022;</span>
+              </h4>
+              <div class="d-flex flex-wrap py-5">
+                <a href="#work" class="w-btn w-btn-medium w-bg-blue wow fadeIn"data-wow-duration=".6s"
+                  data-wow-delay=".8s"><span>&#128188;</span><span> See work below</span></a>
+                <a href="#" class="w-btn w-btn-medium w-bg-orange wow fadeIn"data-wow-duration=".6s"
+                  data-wow-delay="1.2s"><span>&#128221;</span><span> See resume here</span></a>
+                <a href="#contact" class="w-btn w-btn-medium w-bg-purple wow fadeIn"data-wow-duration=".6s"
+                  data-wow-delay="1.4s"><span>&#128231; </span><span> Email me here</span></a>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+              <div class="w-img w-rounded-30 w-text-purple overflow-hidden position-relative wow fadeInRight"
+                data-wow-duration="1.5s" data-wow-delay=".8s">
+                <img class="" src="assets/img/me.jpg" alt="" />
+                <img class="w-anime-rotate" src="assets/img/circle-text-2.svg"
+                  style="position: absolute; bottom: -30%; right: -39%" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END INFO -->
+    <div id="about" class="w-about-me">
+      <div class="container-fluid py-lg-5">
+        <div class="container text-left pt-lg-2">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="w-heading-2 wow fadeInDown"data-wow-duration=".6s" data-wow-delay=".8s" Hi there!<br />
+              Here's a bit about me.
+              <span class="w-text-yellow-medium">&#10040; </span><span class="w-text-blue">〜</span>
+              </h2>
+              <p class="wow fadeInDown"data-wow-duration=".6s" data-wow-delay="1.5s">
+                A girls 31 year old, love all things design, including visual
+                design, web and mobile design, branding and typography.
+              </p>
+              <p class="wow fadeInDown"data-wow-duration=".6s" data-wow-delay="1.6s">
+                Besides studying, I am active as a freelance designer and web
+                developer.
+              </p>
+              <blockquote class="w-blockquote w-bg-purple-light wow fadeInDown "data-wow-duration=".6s" data-wow-delay=".8s">
+                In my work I always try to find that
+                <span class="w-text-purple-darker"><span>★彡 </span><strong>perfect match</strong><span> ★彡</span></span>
+                between aesthetics and functionality, since I believe that
+                neither of the two can go without each other
+                <span class="w-text-purple-darker">&#10048; </span>
+              </blockquote>
+              <h4 class="w-heading-4 wow fadeInDown "data-wow-duration=".6s" data-wow-delay=".8s">
+                Just some (fun) facts about me and about what I like to do.
+                <span class="w-text-yellow-medium">&#10040; </span><span class="w-text-blue">〜</span>
+              </h4>
+              <h6 class="w-heading-6 wow fadeInDown "data-wow-duration=".6s" data-wow-delay=".8s">
+                <span class="w-text-purple">✿</span>
+                <span class="w-underline-wave">I like Milk Tea</span>
+              </h6>
+              <p class="w-text-indent-20 wow fadeInDown "data-wow-duration=".6s" data-wow-delay=".8s">
+                <span class="w-text-purple">&#10551; </span>I like to start my
+                day with a little sweetness, with my favorite flavor of milk
+                tea <span class="w-text-blue">♡ ⌂ ♡</span>.
+              </p>
+              <p class="w-text-indent-20 wow fadeInDown "data-wow-duration=".6s" data-wow-delay=".8s">
+                <span class="w-text-purple">&#10551; </span>Ginger milk tea is
+                my favorite flavor.
+              </p>
+              <h6 class="w-heading-6 wow fadeInDown "data-wow-duration=".6s" data-wow-delay=".8s">
+                <span class="w-text-green">✿</span>
+                <span class="w-underline-wave w-underline-green">I like Manga, Novel, Anime, Movie</span>
+              </h6>
+              <p class="w-text-indent-20 wow fadeInDown "data-wow-duration=".6s" data-wow-delay=".8s">
+                <span class="w-text-green">&#10551; </span>Well, to be honest,
+                I really enjoy reading manga, novels, and watching anime
+                <span class="w-text-blue">〜</span> .
+              </p>
+              <p class="w-text-indent-20 wow fadeInDown "data-wow-duration=".6s" data-wow-delay=".8s">
+                <span class="w-text-green">&#10551; </span>They help me relax
+                more when stressed
+                <span class="w-text-orange">(ꈍ .̮ ꈍ✿)</span>
+              </p>
+              <blockquote class="w-blockquote w-bg-blue-light wow fadeInDown "data-wow-duration=".6s" data-wow-delay=".8s">
+                I am a hard working, enthusiastic person, and I love to work
+                in motivated teams. If possible, I like to work on projects
+                <span class="w-text-blue-darker"><span>♡⌣ ♡⋆*.⋆ </span><strong>that make this world a little
+                    better</strong><span> ♡⋆*.⋆ ✿∘˚˳°∘° </span></span>.
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END ABOUT ME -->
+    <div id="work" class="w-work-me">
+      <div class="container-fluid py-lg-5">
+        <div class="container text-left pt-lg-2">
+          <div class="row">
+            <div class="col-12">
+              <h2 class="w-heading-2 wow fadeInDown "data-wow-duration=".6s" data-wow-delay=".8s">
+                Some recent<br />
+                work.
+                <span class="w-text-yellow-medium">&#10040; </span><span class="w-text-blue">〜</span>
+              </h2>
+            </div>
+          </div>
+          <div class="w-card w-bg-green mt-4 mb-4 mt-lg-5 mb-lg-5 wow fadeInDown "data-wow-duration=".6s" data-wow-delay=".8s">
+            <div class="w-card-inner p-4 position-relative">
+              <div class="row justify-spacebetween">
+                <div class="col-12 col-md-4 w-rounded-30">
+                  <div class="w-card-img w-text-purple" style="background-image: url('assets/img/project-1.jpg')"></div>
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="w-card-wrap p-3 p-lg-5">
+                    <div class="w-card-content">
+                      <small>Book / Strategy / Skill</small>
+                      <h3 class="w-heading-3">DirecAI</h3>
+                      <p>
+                        Give some guidance on the highest survival skills in
+                        emergency situations.
+                      </p>
+                      <a href="#" class="w-btn w-btn-medium w-bg-white text-uppercase">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-card w-bg-orange mt-4 mb-4 mt-lg-5 mb-lg-5 wow fadeInDown "data-wow-duration=".6s" data-wow-delay=".8s">
+            <div class="w-card-inner p-4 position-relative">
+              <div class="row justify-spacebetween">
+                <div class="col-12 col-md-4 w-rounded-30">
+                  <div class="w-card-img w-text-blue" style="background-image: url('assets/img/project-2.jpg')"></div>
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="w-card-wrap p-3 p-lg-5">
+                    <div class="w-card-content">
+                      <small>Ecommerce / Protection</small>
+                      <h3 class="w-heading-3">SmartFire Protection</h3>
+                      <p>
+                        Providing services and solutions in fire prevention
+                        for businesses, improving fire prevention ability
+                        before a fire occurs.
+                      </p>
+                      <a href="#" class="w-btn w-btn-medium w-bg-white text-uppercase">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w-card w-bg-blue mt-4 mb-5 mt-lg-5 mb-lg-5 wow fadeInDown "data-wow-duration=".6s" data-wow-delay=".8s">
+            <div class="w-card-inner p-4 position-relative">
+              <div class="row justify-spacebetween">
+                <div class="col-12 col-md-4 w-rounded-30">
+                  <div class="w-card-img w-text-orange" style="background-image: url('assets/img/project-3.jpg')"></div>
+                </div>
+                <div class="col-12 col-md-8">
+                  <div class="w-card-wrap p-3 p-lg-5">
+                    <div class="w-card-content">
+                      <small>Ecommerce /Food / Cream</small>
+                      <h3 class="w-heading-3">Yupee - Ice Cream</h3>
+                      <p>
+                        Producing and trading tropical fruit ice cream,
+                        providing fast delivery service, excellent quality and
+                        taste.
+                      </p>
+                      <a href="#" class="w-btn w-btn-medium w-bg-white text-uppercase">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 text-center pb-5 wow fadeInUp "data-wow-duration=".6s" data-wow-delay=".8s">
+              <a href="#" class="w-btn w-btn-medium w-bg-purple text-uppercase">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END WORK -->
+  </main>
+  <!-- END MAIN CONTENT -->
+  <!-- BEGIN FOOTER -->
+  <footer class="w-footer">
+    <div class="w-footer-top w-bg-green wow fadeInUp "data-wow-duration=".6s" data-wow-delay=".8s">
+      <div class="container-fluid py-5">
+        <div class="container text-left pt-2">
+          <div class="row justify-content-between text-center">
+            <div class="col-12">
+              <div class="w-footer-marquee">
+                <span class="w-text-yellow">(✿ꈍ.ꈍ)☀</span> Thank you for
+                coming to my little corner of the web
+                <span class="w-text-yellow">(ꈍεꈍ✿)★</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="w-footer-center w-bg-yellow wow fadeInUp "data-wow-duration=".6s" data-wow-delay=".8s">
+      <div class="container-fluid py-5">
+        <div class="container text-left pt-2">
+          <div class="row justify-content-between text-left">
+            <div class="col-12">
+              <h3 class="w-heading-3">Want to chat?</h3>
+              <p class="w-footer-text">
+                Say hello at <br />
+                <a class="w-footer-link" href="mailto:thunk.work.91@gmail.com" target="_blank"><span>📬</span>
+                  thunk.work.91@gmail.com</a>
+                <br />
+                <a class="w-footer-link" href="tel:(0349723803)"><span>📲 </span> 0349723803</a>
+              </p>
+              <ul class="w-social list-inline py-3">
+                <li class="list-inline-item w-list-item-email">
+                  <a href="mailto:thunk.work.91@gmail.com" target="_blank">
+                    <span>Email</span></a>
+                </li>
+                <li class="list-inline-item w-list-item-resume">
+                  <a href="#" target="_blank"> <span>Resume</span></a>
+                </li>
+                <li class="list-inline-item w-list-item-linkedind">
+                  <a href="https://www.linkedin.com/" target="_blank">
+                    <span>LinkedIn</span></a>
+                </li>
+                <li class="list-inline-item w-list-item-behance">
+                  <a href="https://www.behance.com" target="_blank">
+                    <span>Behance</span></a>
+                </li>
+              </ul>
+              <p class="w-copyright">
+                Copyright &copy; 2022 by <b>Nguyen Kim Thu &#127810;</b>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END FOOTER -->
+  <!-- START BACK TO TOP -->
+  <div class="w-back-to-top show">
+    <svg width="37" viewBox="0 0 102 113" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" clip-rule="evenodd"
+        d="M46.8627 1.72552C48.0215 0.654466 49.571 0 51.2734 0C52.761 0 54.1318 0.499697 55.2273 1.34039C55.3812 1.45852 55.5297 1.58338 55.6723 1.71453L99.8908 42.2238C102.538 44.6487 102.718 48.7604 100.293 51.4074C97.8679 54.0544 93.7563 54.2344 91.1093 51.8094L57.7734 21.27V105.54C57.7734 109.13 54.8633 112.04 51.2734 112.04C47.6836 112.04 44.7734 109.13 44.7734 105.54V21.2701L11.4377 51.8094C8.79069 54.2344 4.67905 54.0544 2.25409 51.4074C-0.170863 48.7604 0.00914073 44.6487 2.65614 42.2238L46.8627 1.72552Z"
+        fill="#D8BAFF" fill-opacity="0.75"></path>
+    </svg>
+  </div>
+  <!-- END BACK TO TOP -->
+  <script src="/assets/lib/jquery-3.6.0.min.js"></script>
+  <script src="/assets/lib/easing/easing.min.js"></script>
+  <script src="https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
